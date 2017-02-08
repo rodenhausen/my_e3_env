@@ -1,0 +1,36 @@
+##### Executing command:
+
+/home/thomas/git/EulerX/src-el/euler2 align /home/thomas/.e3/taps/demo_birds/.cleantax -o /home/thomas/.e3/taps/demo_birds -r dlv -e mnpw 
+
+
+##### Euler version:
+
+master
+9d1148dc67e329e6dbddfaacd00fb1595ce2ed43
+
+
+##### GraphViz version:
+
+dot - graphviz version 2.36.0 (20140111.2315)
+
+
+##### DLV version:
+
+DLV [build BEN/Dec 17 2012   gcc 4.6.1]
+
+usage: dlv {FRONTEND} {OPTIONS} [filename [filename [...]]]
+
+Specify -help for more detailed usage information.
+
+
+##### Running User, Host and Date:
+User:	thomas
+Host:	thomas-VirtualBox
+Date:	2017-02-06-14:21:55
+
+
+##### Euler Outputs:
+******* You are running example .cleantax *******
+************************************
+Input is inconsistent
+
