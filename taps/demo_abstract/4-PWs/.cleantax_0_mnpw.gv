@@ -1,0 +1,77 @@
+digraph{
+rankdir=RL
+node[shape=box style=filled fillcolor="#CCFFCC"] 
+"1.D"
+"1.F"
+"1.B"
+"1.C"
+"1.I"
+node[shape=octagon style=filled fillcolor="#FFFFCC"] 
+"2.I"
+"2.C"
+"2.B"
+"2.F"
+node[shape=box style="filled,rounded" fillcolor="#EEEEEE"] 
+"1.G\n2.G"
+"1.E\n2.E"
+"1.A\n2.A"
+"1.H\n2.H"
+edge[arrowhead=none style=dotted color="#0000FF" constraint=false penwidth=1]
+"1.I" -> "2.F"
+"1.B" -> "2.C"
+"1.I" -> "2.B"
+"1.I" -> "2.C"
+"1.F" -> "2.B"
+"1.F" -> "2.F"
+edge[arrowhead=normal style=solid color="#000000" constraint=true penwidth=1]
+"1.C" -> "1.B"
+"1.B" -> "2.B"
+"1.I" -> "1.A\n2.A"
+"1.F" -> "1.A\n2.A"
+"1.H\n2.H" -> "1.F"
+"2.F" -> "1.A\n2.A"
+"1.E\n2.E" -> "1.B"
+"2.B" -> "1.A\n2.A"
+"2.C" -> "2.B"
+"1.D" -> "1.B"
+"1.C" -> "2.C"
+"1.H\n2.H" -> "2.B"
+"1.G\n2.G" -> "2.F"
+"1.D" -> "2.C"
+"1.G\n2.G" -> "1.F"
+"2.I" -> "2.F"
+edge[arrowhead=normal style=solid color="#FF0000" constraint=true penwidth=1]
+"2.I" -> "1.I"
+edge[arrowhead=normal style=dotted color="#000000" constraint=true penwidth=1]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC">1</TD> 
+ <TD>5</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC">2</TD> 
+ <TD>4</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#EEEEEE">comb</TD> 
+ <TD>4</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#0000FF">overlaps</font></TD> 
+ <TD>6</TD> 
+ </TR> 
+<TR> 
+ <TD><font color ="#000000">input</font></TD> 
+ <TD>16</TD> 
+ </TR> 
+<TR> 
+ <TD><font color ="#FF0000">inferred</font></TD> 
+ <TD>1</TD> 
+ </TR> 
+</TABLE> 
+ >] } 
+}
